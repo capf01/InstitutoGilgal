@@ -4,7 +4,7 @@
        <!-- Foto grande na lateral esquerda -->
        <div class="card" @click="openCarousel">
          <img
-           :src="require('@/assets/Images/Card01/Sacolao (1).jpeg')"
+           :src="require('@/assets/Images/Card06/InclusãoDigital (1).jpeg')"
            alt="Sacolao"
            class="card-image"
          />
@@ -13,15 +13,14 @@
    
        <!-- Texto e botões na lateral direita -->
        <div class="description">
-         <h2>Park Golf</h2>
-         <p>
-     O Park Golf está localizado no bairro Novo Aleixo, em Manaus/AM, com apartamentos de 50,09 m², 2 quartos, suíte e varanda. O condomínio fechado oferece portaria 24 horas, conforto e segurança para você e sua família.
-     A área de lazer inclui piscinas, playground, sala de jogos, brinquedoteca, espaço gourmet, salão de festas e churrasqueira, além de um espaço verde para relaxar.
-     O condomínio conta ainda com academia, coworking, quadra e pet place, oferecendo praticidade e qualidade de vida em um só lugar. Venha conhecer e se encantar com o Park Golf!
- </p>
- 
- 
- 
+         <h2>Inclusão Digital</h2>
+         <p>O Projeto Inclusão Digital do Instituto Gilgal tem como objetivo capacitar crianças e jovens em situação de risco para o uso consciente e produtivo das tecnologias digitais. Reconhecemos que a inclusão digital é essencial para o desenvolvimento pessoal, acadêmico e profissional, especialmente em um mundo cada vez mais conectado.
+
+Por meio de oficinas práticas, aulas de informática básica, introdução à programação e acesso a ferramentas digitais, o projeto visa diminuir a desigualdade no acesso à tecnologia. Além disso, promovemos o uso responsável da internet, estimulando a criatividade, a comunicação e o aprendizado em ambientes digitais seguros.
+
+O Projeto Inclusão Digital prepara os participantes para os desafios do mercado de trabalho e contribui para a transformação social, oferecendo ferramentas para que se tornem protagonistas em suas próprias trajetórias.
+
+Apoie essa iniciativa e ajude o Instituto Gilgal a construir um futuro mais inclusivo e tecnológico para todos!</p>  
          <div class="button-group">
            <button @click="handleContato">Fale Conosco</button>
            <button @click="openLocation">Localização</button>
@@ -57,16 +56,12 @@
    
    <script>
    export default {
-     name: "SacolaosolidarioComponent",
+     name: "InclusaoDigital",
      data() {
        return {
          galleryImages: [  
-       require('@/assets/Images/Card01/Sacolao (1).jpeg'),
-       require('@/assets/Images/Card01/Sacolao (2).jpeg'),
-       require('@/assets/Images/Card01/Sacolao (3).jpeg'),
-       require('@/assets/Images/Card01/Sacolao (4).jpeg'),
-   
-               ],
+       require('@/assets/Images/Card06/InclusãoDigital (1).jpeg'),
+       require('@/assets/Images/Card06/InclusãoDigital (2).jpeg'),  ],
          isGalleryOpen: false,
          currentImageIndex: 0,
        };
@@ -141,8 +136,8 @@
   }
   
   .card-image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     border-radius: 10px;
     object-fit: cover;
     transition: transform 0.3s ease;
@@ -175,7 +170,7 @@
   }
   
   .button-group button {
-    background-color: #d15c0d;
+    background-color: #d10dcb;
     color: rgb(254, 254, 251);
     border: none;
     padding: 12px 25px;
@@ -298,8 +293,8 @@
        align-items: center;
      }
      .carousel-main-image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit: contain;
     border-radius: 10px;
   }
@@ -307,8 +302,8 @@
        max-width: 100%;
      }
      .card-image{
-       max-width: 100%;
-       max-height: 100%;
+       max-width: 80%;
+       max-height: 80%;
      }  
      .button-group button,
      .button-group2 button {
@@ -319,4 +314,3 @@
      
    }
   </style>
- 

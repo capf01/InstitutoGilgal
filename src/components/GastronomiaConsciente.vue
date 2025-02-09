@@ -4,7 +4,7 @@
        <!-- Foto grande na lateral esquerda -->
        <div class="card" @click="openCarousel">
          <img
-           :src="require('@/assets/Images/Card01/Sacolao (1).jpeg')"
+           :src="require('@/assets/Images/Card10/Gastronomia (3).jpeg')"
            alt="Sacolao"
            class="card-image"
          />
@@ -13,15 +13,14 @@
    
        <!-- Texto e botões na lateral direita -->
        <div class="description">
-         <h2>Park Golf</h2>
+         <h2>Gastronomia Consciente</h2>
          <p>
-     O Park Golf está localizado no bairro Novo Aleixo, em Manaus/AM, com apartamentos de 50,09 m², 2 quartos, suíte e varanda. O condomínio fechado oferece portaria 24 horas, conforto e segurança para você e sua família.
-     A área de lazer inclui piscinas, playground, sala de jogos, brinquedoteca, espaço gourmet, salão de festas e churrasqueira, além de um espaço verde para relaxar.
-     O condomínio conta ainda com academia, coworking, quadra e pet place, oferecendo praticidade e qualidade de vida em um só lugar. Venha conhecer e se encantar com o Park Golf!
- </p>
- 
- 
- 
+          O Instituto Gilgal reconhece o papel transformador da gastronomia na promoção de hábitos saudáveis e na criação de oportunidades para crianças e jovens em situação de risco. Com o Projeto Gastronomia Consciente, oferecemos oficinas práticas e educativas que ensinam conceitos de alimentação saudável, sustentabilidade e aproveitamento integral dos alimentos.
+
+Os participantes aprendem técnicas culinárias, nutrição básica e formas de reduzir o desperdício, enquanto desenvolvem habilidades que podem ser aplicadas no mercado de trabalho. Além disso, o projeto valoriza a cultura alimentar local e incentiva a criatividade na cozinha, promovendo uma relação mais consciente e sustentável com os alimentos.
+
+O Projeto Gastronomia Consciente transforma a cozinha em um espaço de aprendizado, inclusão e empoderamento, preparando jovens para um futuro mais saudável e com novas perspectivas profissionais. Apoie essa iniciativa e ajude a cultivar sonhos e oportunidades!
+        </p>
          <div class="button-group">
            <button @click="handleContato">Fale Conosco</button>
            <button @click="openLocation">Localização</button>
@@ -61,11 +60,11 @@
      data() {
        return {
          galleryImages: [  
-       require('@/assets/Images/Card01/Sacolao (1).jpeg'),
-       require('@/assets/Images/Card01/Sacolao (2).jpeg'),
-       require('@/assets/Images/Card01/Sacolao (3).jpeg'),
-       require('@/assets/Images/Card01/Sacolao (4).jpeg'),
-   
+       require('@/assets/Images/Card10/Gastronomia (1).jpeg'),
+       require('@/assets/Images/Card10/Gastronomia (2).jpeg'),
+       require('@/assets/Images/Card10/Gastronomia (3).jpeg'),
+       require('@/assets/Images/Card10/Gastronomia (4).jpeg'),
+       require('@/assets/Images/Card10/Gastronomia (5).jpeg'),
                ],
          isGalleryOpen: false,
          currentImageIndex: 0,
@@ -141,8 +140,8 @@
   }
   
   .card-image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     border-radius: 10px;
     object-fit: cover;
     transition: transform 0.3s ease;
@@ -175,7 +174,7 @@
   }
   
   .button-group button {
-    background-color: #d15c0d;
+    background-color: #d10dcb;
     color: rgb(254, 254, 251);
     border: none;
     padding: 12px 25px;
@@ -298,8 +297,8 @@
        align-items: center;
      }
      .carousel-main-image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit: contain;
     border-radius: 10px;
   }
@@ -307,8 +306,8 @@
        max-width: 100%;
      }
      .card-image{
-       max-width: 100%;
-       max-height: 100%;
+       max-width: 80%;
+       max-height: 80%;
      }  
      .button-group button,
      .button-group2 button {
@@ -319,4 +318,3 @@
      
    }
   </style>
- 

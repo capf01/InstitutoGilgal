@@ -13,12 +13,23 @@
    
        <!-- Texto e botões na lateral direita -->
        <div class="description">
-         <h2>Park Golf</h2>
+         <h2>Projetos Concectadas</h2>
          <p>
-     O Park Golf está localizado no bairro Novo Aleixo, em Manaus/AM, com apartamentos de 50,09 m², 2 quartos, suíte e varanda. O condomínio fechado oferece portaria 24 horas, conforto e segurança para você e sua família.
-     A área de lazer inclui piscinas, playground, sala de jogos, brinquedoteca, espaço gourmet, salão de festas e churrasqueira, além de um espaço verde para relaxar.
-     O condomínio conta ainda com academia, coworking, quadra e pet place, oferecendo praticidade e qualidade de vida em um só lugar. Venha conhecer e se encantar com o Park Golf!
- </p>
+          O projeto Conectadas, promovido pelo Instituto Gilgal, é voltado para capacitar e empoderar meninas e jovens mulheres em situação de vulnerabilidade social por meio da tecnologia e da inclusão digital. A iniciativa busca reduzir as desigualdades de gênero no acesso ao conhecimento tecnológico, proporcionando ferramentas que ampliem suas oportunidades educacionais e profissionais.
+
+Durante o projeto, as participantes têm acesso a oficinas de programação, design digital, segurança na internet, além de palestras inspiradoras com mulheres que são referência em áreas como tecnologia, empreendedorismo e inovação. O objetivo é despertar nelas a confiança para liderar, criar e conquistar seu espaço no mundo digital.
+
+Mais do que ensinar habilidades técnicas, o Conectadas fomenta a autonomia, o pensamento crítico e a capacidade de inovação, mostrando que elas podem ser protagonistas de suas histórias e agentes de transformação em suas comunidades.
+
+Junte-se ao projeto Conectadas e descubra como a tecnologia pode abrir portas para um futuro cheio de possibilidades!
+
+
+
+
+
+
+
+</p>
  
  
  
@@ -57,7 +68,7 @@
    
    <script>
    export default {
-     name: "SacolaosolidarioComponent",
+     name: "ProjetoConectadas",
      data() {
        return {
          galleryImages: [  

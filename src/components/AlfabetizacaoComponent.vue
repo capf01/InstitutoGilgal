@@ -14,12 +14,12 @@
        <!-- Texto e botões na lateral direita -->
        <div class="description">
          <h2>Alfabetização</h2>
-         <p>
-     Projeto sobre alfabetização
-     
- </p>
- 
- 
+        <p> O Instituto Gilgal acredita no poder transformador da educação. Por isso, desenvolvemos o Projeto de Alfabetização, uma iniciativa dedicada a proporcionar às crianças e jovens em situação de risco as ferramentas essenciais para a leitura e a escrita.
+
+Nosso objetivo é não apenas ensinar as primeiras palavras, mas também abrir as portas para um universo de conhecimento, autonomia e possibilidades. A alfabetização é o primeiro passo para a construção de um futuro mais digno, onde cada criança possa sonhar e alcançar seus objetivos.
+
+Por meio de metodologias interativas, materiais adequados e o carinho de nossos educadores, estamos formando cidadãos mais conscientes e preparados para superar os desafios da vida. Junte-se a nós nessa missão de transformar vidas por meio da educação!
+</p>
  
          <div class="button-group">
            <button @click="handleContato">Fale Conosco</button>
@@ -140,8 +140,8 @@
   }
   
   .card-image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     border-radius: 10px;
     object-fit: cover;
     transition: transform 0.3s ease;
@@ -174,7 +174,7 @@
   }
   
   .button-group button {
-    background-color: #d15c0d;
+    background-color: #d10dcb;
     color: rgb(254, 254, 251);
     border: none;
     padding: 12px 25px;
@@ -297,8 +297,8 @@
        align-items: center;
      }
      .carousel-main-image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit: contain;
     border-radius: 10px;
   }
@@ -306,8 +306,8 @@
        max-width: 100%;
      }
      .card-image{
-       max-width: 100%;
-       max-height: 100%;
+       max-width: 80%;
+       max-height: 80%;
      }  
      .button-group button,
      .button-group2 button {
@@ -318,4 +318,3 @@
      
    }
   </style>
- 

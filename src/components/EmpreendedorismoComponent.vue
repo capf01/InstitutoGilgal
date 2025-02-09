@@ -4,7 +4,7 @@
        <!-- Foto grande na lateral esquerda -->
        <div class="card" @click="openCarousel">
          <img
-           :src="require('@/assets/Images/Card01/Sacolao (1).jpeg')"
+           :src="require('@/assets/Images/Card05/Empreendedorismo (1).jpeg')"
            alt="Sacolao"
            class="card-image"
          />
@@ -13,12 +13,12 @@
    
        <!-- Texto e botões na lateral direita -->
        <div class="description">
-         <h2>Park Golf</h2>
-         <p>
-     O Park Golf está localizado no bairro Novo Aleixo, em Manaus/AM, com apartamentos de 50,09 m², 2 quartos, suíte e varanda. O condomínio fechado oferece portaria 24 horas, conforto e segurança para você e sua família.
-     A área de lazer inclui piscinas, playground, sala de jogos, brinquedoteca, espaço gourmet, salão de festas e churrasqueira, além de um espaço verde para relaxar.
-     O condomínio conta ainda com academia, coworking, quadra e pet place, oferecendo praticidade e qualidade de vida em um só lugar. Venha conhecer e se encantar com o Park Golf!
- </p>
+         <h2>Projeto Empreendedorismo</h2>
+         O Instituto Gilgal acredita que o empreendedorismo é uma ferramenta poderosa para transformar vidas e criar oportunidades. Por meio do Projeto Empreendedorismo, crianças e jovens em situação de risco têm acesso a oficinas, treinamentos e mentorias que despertam sua criatividade e potencial para criar soluções inovadoras.
+
+O projeto oferece conhecimentos práticos sobre gestão, planejamento e finanças, incentivando o desenvolvimento de habilidades essenciais para a construção de um futuro sustentável. Além disso, promove valores como protagonismo, responsabilidade e trabalho em equipe, essenciais para o sucesso em qualquer área da vida.
+
+Com o Projeto Empreendedorismo, o Instituto Gilgal prepara jovens para liderar seus próprios projetos e trilhar caminhos de autonomia e sucesso, incentivando-os a acreditar no poder de suas ideias para transformar suas comunidades. Venha apoiar e fazer parte dessa iniciativa transformadora!
  
  
  
@@ -57,14 +57,14 @@
    
    <script>
    export default {
-     name: "SacolaosolidarioComponent",
+     name: "EmpreendedorismoComponent",
      data() {
        return {
          galleryImages: [  
-       require('@/assets/Images/Card01/Sacolao (1).jpeg'),
-       require('@/assets/Images/Card01/Sacolao (2).jpeg'),
-       require('@/assets/Images/Card01/Sacolao (3).jpeg'),
-       require('@/assets/Images/Card01/Sacolao (4).jpeg'),
+       require('@/assets/Images/Card05/Empreendedorismo (1).jpeg'),
+       require('@/assets/Images/Card05/Empreendedorismo (2).jpeg'),
+       require('@/assets/Images/Card05/Empreendedorismo (3).jpeg'),
+       require('@/assets/Images/Card05/Empreendedorismo (4).jpeg'),
    
                ],
          isGalleryOpen: false,
@@ -141,8 +141,8 @@
   }
   
   .card-image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     border-radius: 10px;
     object-fit: cover;
     transition: transform 0.3s ease;
@@ -175,7 +175,7 @@
   }
   
   .button-group button {
-    background-color: #d15c0d;
+    background-color: #d10dcb;
     color: rgb(254, 254, 251);
     border: none;
     padding: 12px 25px;
@@ -298,8 +298,8 @@
        align-items: center;
      }
      .carousel-main-image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit: contain;
     border-radius: 10px;
   }
@@ -307,8 +307,8 @@
        max-width: 100%;
      }
      .card-image{
-       max-width: 100%;
-       max-height: 100%;
+       max-width: 80%;
+       max-height: 80%;
      }  
      .button-group button,
      .button-group2 button {
@@ -319,4 +319,3 @@
      
    }
   </style>
- 

@@ -1,6 +1,6 @@
 <template>
 
-  <DonationComponent/>
+ 
     <div class="doacao-page">
   
       <div class="doacao-container">
@@ -37,7 +37,7 @@
   
   <script> 
 import ContadorAnimado from '@/components/ContadorAnimado.vue';
-import DonationComponent from '@/components/DonationComponent.vue';
+ 
 
   export default {
     name: "DoacaoPage",
@@ -62,7 +62,7 @@ import DonationComponent from '@/components/DonationComponent.vue';
     },
     components:{
         ContadorAnimado,
-        DonationComponent,
+         
 
     },
   };
@@ -72,13 +72,14 @@ import DonationComponent from '@/components/DonationComponent.vue';
   .doacao-page {
     text-align: center;
     font-family: Arial, sans-serif;
+    padding-bottom: 70px;
   }
   .doacao-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
-    margin: 20px 0;
+    margin: 40px 0;
     flex-wrap: wrap; /* Permite ajustar no caso de telas menores */
   }
   
@@ -89,7 +90,7 @@ import DonationComponent from '@/components/DonationComponent.vue';
   }
   
   .info-section {
-    padding-top: 100px;
+    padding-top: 10px;
   }
   
   .pix-section {

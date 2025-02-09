@@ -10,7 +10,9 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "core-js": "^3.8.3",
+    "gsap": "^3.12.7",
     "popper.js": "^1.16.1",
+    "tweakpane": "^4.0.5",
     "vue": "^3.2.13",
     "vue-router": "^4.5.0"
   },

@@ -14,12 +14,11 @@
        <!-- Texto e botões na lateral direita -->
        <div class="description">
          <h2>Projeto Capoeira</h2>
-         <p>
-     Capoeira
- </p>
- 
- 
- 
+         O Instituto Gilgal utiliza a capoeira como uma poderosa ferramenta de transformação social por meio do Projeto Capoeira. Essa iniciativa oferece às crianças e jovens em situação de risco a oportunidade de aprender não apenas os movimentos dessa arte, mas também os valores de disciplina, respeito e superação.
+
+A capoeira, enquanto expressão cultural e esportiva, conecta corpo, mente e espírito, promovendo o fortalecimento da autoestima e a valorização das raízes culturais brasileiras. Por meio de aulas interativas e dinâmicas, nossos jovens desenvolvem habilidades físicas, aprendem sobre trabalho em equipe e se inspiram em histórias de resistência e resiliência.
+
+Com o Projeto Capoeira, o Instituto Gilgal busca empoderar cada participante, mostrando que, com esforço e determinação, é possível superar qualquer obstáculo. Venha fazer parte desse movimento de transformação e celebração da cultura!
          <div class="button-group">
            <button @click="handleContato">Fale Conosco</button>
            <button @click="openLocation">Localização</button>
@@ -139,8 +138,8 @@
   }
   
   .card-image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     border-radius: 10px;
     object-fit: cover;
     transition: transform 0.3s ease;
@@ -173,7 +172,7 @@
   }
   
   .button-group button {
-    background-color: #d15c0d;
+    background-color: #d10dcb;
     color: rgb(254, 254, 251);
     border: none;
     padding: 12px 25px;
@@ -296,8 +295,8 @@
        align-items: center;
      }
      .carousel-main-image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit: contain;
     border-radius: 10px;
   }
@@ -305,8 +304,8 @@
        max-width: 100%;
      }
      .card-image{
-       max-width: 100%;
-       max-height: 100%;
+       max-width: 80%;
+       max-height: 80%;
      }  
      .button-group button,
      .button-group2 button {
@@ -317,4 +316,3 @@
      
    }
   </style>
- 

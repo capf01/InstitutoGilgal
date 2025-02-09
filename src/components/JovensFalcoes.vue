@@ -4,7 +4,7 @@
        <!-- Foto grande na lateral esquerda -->
        <div class="card" @click="openCarousel">
          <img
-           :src="require('@/assets/Images/Card01/Sacolao (1).jpeg')"
+           :src="require('@/assets/Images/Card07/JovensFalcoes (1).jpeg')"
            alt="Sacolao"
            class="card-image"
          />
@@ -13,15 +13,14 @@
    
        <!-- Texto e botões na lateral direita -->
        <div class="description">
-         <h2>Park Golf</h2>
-         <p>
-     O Park Golf está localizado no bairro Novo Aleixo, em Manaus/AM, com apartamentos de 50,09 m², 2 quartos, suíte e varanda. O condomínio fechado oferece portaria 24 horas, conforto e segurança para você e sua família.
-     A área de lazer inclui piscinas, playground, sala de jogos, brinquedoteca, espaço gourmet, salão de festas e churrasqueira, além de um espaço verde para relaxar.
-     O condomínio conta ainda com academia, coworking, quadra e pet place, oferecendo praticidade e qualidade de vida em um só lugar. Venha conhecer e se encantar com o Park Golf!
- </p>
- 
- 
- 
+         <h2>Jovens Falcões</h2>
+         <p>O Projeto Jovens Falcões do Instituto Gilgal é uma iniciativa voltada para o fortalecimento emocional, social e profissional de jovens em situação de vulnerabilidade. Inspirado na força e determinação dos falcões, o projeto busca capacitar esses jovens para alçar voos mais altos, promovendo a superação de barreiras e o desenvolvimento integral.
+
+Por meio de atividades que incluem mentorias, palestras motivacionais, oficinas práticas e apoio psicossocial, o projeto incentiva o protagonismo juvenil, preparando os participantes para os desafios do mercado de trabalho e da vida em comunidade.
+
+O Jovens Falcões não só oferece ferramentas técnicas e teóricas, mas também promove valores como resiliência, trabalho em equipe e ética, essenciais para a formação de lideranças transformadoras.
+
+Participe e contribua para que mais jovens possam alcançar seu potencial pleno, superando limites e construindo um futuro promissor!</p>
          <div class="button-group">
            <button @click="handleContato">Fale Conosco</button>
            <button @click="openLocation">Localização</button>
@@ -57,15 +56,15 @@
    
    <script>
    export default {
-     name: "SacolaosolidarioComponent",
+     name: "JovensFalcoes",
      data() {
        return {
          galleryImages: [  
-       require('@/assets/Images/Card01/Sacolao (1).jpeg'),
-       require('@/assets/Images/Card01/Sacolao (2).jpeg'),
-       require('@/assets/Images/Card01/Sacolao (3).jpeg'),
-       require('@/assets/Images/Card01/Sacolao (4).jpeg'),
-   
+       require('@/assets/Images/Card07/JovensFalcoes (1).jpeg'),
+       require('@/assets/Images/Card07/JovensFalcoes (2).jpeg'),
+       require('@/assets/Images/Card07/JovensFalcoes (3).jpeg'),
+       require('@/assets/Images/Card07/JovensFalcoes (4).jpeg'),
+       require('@/assets/Images/Card07/JovensFalcoes (5).jpeg'),
                ],
          isGalleryOpen: false,
          currentImageIndex: 0,
@@ -141,8 +140,8 @@
   }
   
   .card-image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     border-radius: 10px;
     object-fit: cover;
     transition: transform 0.3s ease;
@@ -175,7 +174,7 @@
   }
   
   .button-group button {
-    background-color: #d15c0d;
+    background-color: #d10dcb;
     color: rgb(254, 254, 251);
     border: none;
     padding: 12px 25px;
@@ -298,8 +297,8 @@
        align-items: center;
      }
      .carousel-main-image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit: contain;
     border-radius: 10px;
   }
@@ -307,8 +306,8 @@
        max-width: 100%;
      }
      .card-image{
-       max-width: 100%;
-       max-height: 100%;
+       max-width: 80%;
+       max-height: 80%;
      }  
      .button-group button,
      .button-group2 button {
@@ -319,4 +318,3 @@
      
    }
   </style>
- 

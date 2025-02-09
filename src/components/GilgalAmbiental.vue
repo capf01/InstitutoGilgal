@@ -4,7 +4,7 @@
        <!-- Foto grande na lateral esquerda -->
        <div class="card" @click="openCarousel">
          <img
-           :src="require('@/assets/Images/Card01/Sacolao (1).jpeg')"
+           :src="require('@/assets/Images/Card03/GilgalAmbiental (1).jpeg')"
            alt="Sacolao"
            class="card-image"
          />
@@ -13,15 +13,14 @@
    
        <!-- Texto e botões na lateral direita -->
        <div class="description">
-         <h2>Park Golf</h2>
-         <p>
-     O Park Golf está localizado no bairro Novo Aleixo, em Manaus/AM, com apartamentos de 50,09 m², 2 quartos, suíte e varanda. O condomínio fechado oferece portaria 24 horas, conforto e segurança para você e sua família.
-     A área de lazer inclui piscinas, playground, sala de jogos, brinquedoteca, espaço gourmet, salão de festas e churrasqueira, além de um espaço verde para relaxar.
-     O condomínio conta ainda com academia, coworking, quadra e pet place, oferecendo praticidade e qualidade de vida em um só lugar. Venha conhecer e se encantar com o Park Golf!
- </p>
- 
- 
- 
+         <h2>Gilgal Ambiental</h2>
+         <p> O Projeto Gilgal Ambiental é uma iniciativa do Instituto Gilgal voltada para a conscientização e preservação do meio ambiente, com foco na formação de crianças e jovens em situação de risco como agentes de transformação sustentável.
+
+Através de oficinas, palestras e atividades práticas, o projeto aborda temas como reciclagem, manejo de resíduos, preservação de recursos naturais e a importância da sustentabilidade no dia a dia. Os participantes aprendem a adotar hábitos responsáveis e a contribuir para a proteção do meio ambiente em suas comunidades.
+
+O Gilgal Ambiental também promove ações de plantio, revitalização de espaços públicos e sensibilização ambiental, fortalecendo o senso de responsabilidade coletiva. Com isso, buscamos não apenas educar, mas inspirar os jovens a cuidar do planeta e influenciar positivamente aqueles ao seu redor.
+
+Apoie o Projeto Gilgal Ambiental e faça parte dessa corrente de mudança pelo futuro do nosso planeta!</p>
          <div class="button-group">
            <button @click="handleContato">Fale Conosco</button>
            <button @click="openLocation">Localização</button>
@@ -61,10 +60,12 @@
      data() {
        return {
          galleryImages: [  
-       require('@/assets/Images/Card01/Sacolao (1).jpeg'),
-       require('@/assets/Images/Card01/Sacolao (2).jpeg'),
-       require('@/assets/Images/Card01/Sacolao (3).jpeg'),
-       require('@/assets/Images/Card01/Sacolao (4).jpeg'),
+       require('@/assets/Images/Card03/GilgalAmbiental (1).jpeg'),
+       require('@/assets/Images/Card03/GilgalAmbiental (2).jpeg'),
+       require('@/assets/Images/Card03/GilgalAmbiental (3).jpeg'),
+       require('@/assets/Images/Card03/GilgalAmbiental (4).jpeg'),
+       require('@/assets/Images/Card03/GilgalAmbiental (5).jpeg'),
+       require('@/assets/Images/Card03/GilgalAmbiental (6).jpeg'),
    
                ],
          isGalleryOpen: false,
@@ -141,8 +142,8 @@
   }
   
   .card-image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     border-radius: 10px;
     object-fit: cover;
     transition: transform 0.3s ease;
@@ -175,7 +176,7 @@
   }
   
   .button-group button {
-    background-color: #d15c0d;
+    background-color: #d10dcb;
     color: rgb(254, 254, 251);
     border: none;
     padding: 12px 25px;
@@ -298,8 +299,8 @@
        align-items: center;
      }
      .carousel-main-image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit: contain;
     border-radius: 10px;
   }
@@ -307,8 +308,8 @@
        max-width: 100%;
      }
      .card-image{
-       max-width: 100%;
-       max-height: 100%;
+       max-width: 80%;
+       max-height: 80%;
      }  
      .button-group button,
      .button-group2 button {
@@ -319,4 +320,3 @@
      
    }
   </style>
- 

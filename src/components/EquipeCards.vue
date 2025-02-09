@@ -61,6 +61,12 @@ export default {
           apresentacao: "Nutricionista, Consultora de Alimentos e Chefe de Cozinha",
           foto: require("@/assets/Images/Cheff Juliana Teixeira.jpg"),
         },
+        {
+          id: 8,
+          nome: "César Pacheco",
+          apresentacao: "Desenvolvedor Web, Gerente de TI",
+          foto: require("@/assets/Images/Cesarfoto.jpg"),
+        },
       ],
     };
   },
@@ -75,16 +81,18 @@ export default {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(6, 1fr); /* 6 colunas */
+  grid-template-columns: repeat(4, 1fr); /* 6 colunas */
+  align-items: center;
   gap: 20px;
   margin-top: 20px;
 }
 
 .card {
   background-color: #f9f9f9;
-  border: 1px solid #ddd;
+  border: 1px solid #d2d2d2;
   border-radius: 15px;
   padding: 20px;
+  height: 100%;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
@@ -96,8 +104,8 @@ export default {
 }
 
 .profile-pic {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 15px;
@@ -106,7 +114,7 @@ export default {
 h2 {
   margin: 10px 0;
   font-size: 1.2rem;
-  color: #f200ff;;
+  color: #004cd8;
 }
 
 p {

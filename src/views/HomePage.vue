@@ -11,7 +11,6 @@
 <section>
   <CarrosselComponent/>
 </section>
-
 <section>
   <EquipeCards/>
 </section>
@@ -40,7 +39,6 @@ export default {
    NosComponent,
    EquipeCards,
    ParceirosComponent,
-   
   },
 };
 </script>

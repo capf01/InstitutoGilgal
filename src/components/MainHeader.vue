@@ -34,9 +34,10 @@
         <li><router-link to="/" class="menu-item">Início</router-link></li>
         <li><router-link to="/Projetos" class="menu-item">Projetos</router-link></li>
         <li><router-link to="/Doacao" class="menu-item">Seja Doador</router-link></li>
-        <li><router-link to="/Imoveis" class="menu-item">Seja Parceiro</router-link></li>
-        <li><router-link to="/Imoveis" class="menu-item">Seja Volutário</router-link></li>
-        <li><router-link to="/contact" class="menu-item">Contato</router-link></li>
+        <li><router-link to="/Parceiro" class="menu-item">Seja Parceiro</router-link></li>
+        <li><router-link to="/Voluntario" class="menu-item">Seja Volutário</router-link></li>
+        <li><router-link to="/QuemSomos" class="menu-item">Quem Somos</router-link></li>
+        <li><router-link to="/Contato" class="menu-item">Contato</router-link></li>
       </ul>
 
       <!-- Botão Hambúrguer (para telas menores) -->
@@ -235,6 +236,7 @@ export default {
 }
   .nav-menu {
     display: flex;
+    font-size: 12px;
     align-items: center;
     gap: 20px;
   }
@@ -249,6 +251,7 @@ export default {
   .menu-item {
     text-decoration: none;
     color:#0d0879;
+    font-size: 1.2rem;
     font-weight: bold;
     transition: color 0.3s;
   }
@@ -290,7 +293,7 @@ export default {
       right: 0;
       padding-top: 20px;
       width: 100%;
-      height: 30%;
+      height: 50%;
       background-color: rgba(230, 228, 228, 0.9);
       justify-content: center;
       align-items: center;

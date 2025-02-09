@@ -1,5 +1,6 @@
 <template>
   <div class="imoveis-container">
+    <h1 class="Projetos">Nossos Projetos</h1>
     <section class="projeto">
       <SacolaosolidarioComponent/>
     </section>
@@ -78,7 +79,9 @@ export default {
   padding: 0;
 }
  
-
+.Projetos{
+  padding-top: 40px;
+}
 /* Responsividade adicional */
 @media (max-width: 768px) {
   .imoveis-container {

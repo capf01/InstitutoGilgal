@@ -54,13 +54,13 @@
     margin: 0;
     padding: 0;
     text-align: justify;
+    font-size: 1.2rem;
   }
   
   .section {
     padding: 40px 20px;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .content {
